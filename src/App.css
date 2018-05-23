@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  /* animation: App-logo-spin infinite 20s linear; */
+  height: 75px;
+  float: left;
+}
+
+.App-header {
+  color: black;
+  /* position: fixed; */
+  right: 0;
+  top: 0;
+  left: 0;
+  text-align: center;
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: lightPink;
+}
+
+.App-title {
+  font-size: 1.75em;
+  font-family: 'Futura';
+  color: pink;
+  text-shadow: 0 0 5px red, 0 0 10px deepPink, 0 0 30px #E72564, 0 0 30px #E72564, 0 0 40px #E72564, 0 0 75px #E72564, 0 0 75px #E72564;
+  text-align: center;
+  margin-bottom: 10px;
+  float: left;
+  padding-left: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.question {
+  font-size: 20px;
+  color: #F22574;
+}
+
+.answerOption {
+  font-size: 10px;
+}
+
+.questionCount {
+  text-align: left;
+  color: pink;
+  padding-bottom: 10px;
+  height: 10px;
+}
